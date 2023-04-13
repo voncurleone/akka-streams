@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9f056-85dd-4bc0-a0f9-5768416606c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ex1.scala" afterDir="false" />
+    <list default="true" id="43a9f056-85dd-4bc0-a0f9-5768416606c0" name="Changes" comment="Ex 1.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Materializers.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ex1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Principles.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Materializers">
+    <configuration name="Materializers" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Materializers" />
+      <module name="akka streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principles" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Principles" />
+      <module name="akka streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ex1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ex1" />
       <module name="akka streams" />
@@ -64,6 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Materializers" />
+        <item itemvalue="Application.Principles" />
         <item itemvalue="Application.ex1" />
       </list>
     </recent_temporary>
@@ -76,11 +85,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681424159437</updated>
-      <workItem from="1681424160487" duration="964000" />
+      <workItem from="1681424160487" duration="3430000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit.">
+      <created>1681425304772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681425304772</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ex 1.">
+      <created>1681425329928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681425329928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit." />
+    <MESSAGE value="Ex 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex 1." />
   </component>
 </project>

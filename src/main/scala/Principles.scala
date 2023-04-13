@@ -1,8 +1,8 @@
 import akka.actor.ActorSystem
 import akka.stream.scaladsl.{Flow, Sink, Source}
 
-object ex1 extends App {
-  implicit val system = ActorSystem("system")
+object Principles extends App {
+  implicit val system: ActorSystem = ActorSystem("system")
 
   val names = List("tim", "reed", "christopher", "josh", "joseph", "william")
 
@@ -16,4 +16,6 @@ object ex1 extends App {
   val graph = nameSource.via(longNameFlow).via(firstTwoFlow).to(sink)
 
   graph.run()
+
+  system.terminate()
 }
