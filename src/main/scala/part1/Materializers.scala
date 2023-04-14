@@ -1,8 +1,10 @@
+package part1
+
 import akka.actor.ActorSystem
 import akka.stream.scaladsl.{Flow, Keep, Sink, Source}
 
-import scala.util.{Failure, Success}
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.util.{Failure, Success}
 
 object Materializers extends App {
   implicit val system: ActorSystem = ActorSystem("system")

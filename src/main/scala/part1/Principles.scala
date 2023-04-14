@@ -1,3 +1,5 @@
+package part1
+
 import akka.actor.ActorSystem
 import akka.stream.scaladsl.{Flow, Sink, Source}
 
