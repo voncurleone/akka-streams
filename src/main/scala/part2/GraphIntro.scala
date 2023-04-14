@@ -8,9 +8,11 @@ object GraphIntro extends App {
 
   implicit val system = ActorSystem("system")
 
+  def out(msg: String) = println(s"[${Thread.currentThread()}] $msg")
+
   val source = Source(1 to 1000)
-  val sink1 = Sink.foreach[Int] { x => println(s"sink1: $x") }
-  val sink2 = Sink.foreach[Int] { x => println(s"sink2: $x") }
+  val sink1 = Sink.foreach[Int] { x => out(s"sink1: $x") }
+  val sink2 = Sink.foreach[Int] { x => out(s"sink2: $x") }
 
   val graph = RunnableGraph.fromGraph {
     GraphDSL.create() { implicit builder =>
