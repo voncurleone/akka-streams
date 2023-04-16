@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9f056-85dd-4bc0-a0f9-5768416606c0" name="Changes" comment="Open graphs.">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/part2/GraphMaterializedValue.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/TwitterPlayground.scala" afterDir="false" />
+    <list default="true" id="43a9f056-85dd-4bc0-a0f9-5768416606c0" name="Changes" comment="Complex materialized graphs.">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part2/CyclicGraphs.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +53,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GraphMaterializedValue">
+  <component name="RunManager" selected="Application.CyclicGraphs">
     <configuration name="BackPressure" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="BackPressure" />
       <module name="akka streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicGraphs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part2.CyclicGraphs" />
+      <module name="akka streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,20 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperaterFusion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="OperaterFusion" />
-      <module name="akka streams" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicGraphs" />
         <item itemvalue="Application.GraphMaterializedValue" />
         <item itemvalue="Application.OpenGraph" />
         <item itemvalue="Application.GraphIntro" />
         <item itemvalue="Application.BackPressure" />
-        <item itemvalue="Application.OperaterFusion" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681424159437</updated>
-      <workItem from="1681424160487" duration="23377000" />
+      <workItem from="1681424160487" duration="29493000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1681425304772</created>
@@ -177,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681515122180</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Complex materialized graphs.">
+      <created>1681652716386</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681652716386</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +214,7 @@
     <MESSAGE value="Finish part1." />
     <MESSAGE value="Finish part2." />
     <MESSAGE value="Open graphs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Open graphs." />
+    <MESSAGE value="Complex materialized graphs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Complex materialized graphs." />
   </component>
 </project>
