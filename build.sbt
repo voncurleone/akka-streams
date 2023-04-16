@@ -7,5 +7,9 @@ val AkkaVersion = "2.8.0"
 lazy val root = (project in file("."))
   .settings(
     name := "akka streams",
-    libraryDependencies += "com.typesafe.akka" %% "akka-stream" % AkkaVersion
+    resolvers += "Maven Central" at "https://repo1.maven.org/maven2/",
+    libraryDependencies ++= Seq(
+      "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
+      "com.danielasfregola" %% "twitter4s" % "8.0"
+    )
   )

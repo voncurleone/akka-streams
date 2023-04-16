@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43a9f056-85dd-4bc0-a0f9-5768416606c0" name="Changes" comment="Finish part2.">
+    <list default="true" id="43a9f056-85dd-4bc0-a0f9-5768416606c0" name="Changes" comment="Open graphs.">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/part2/GraphMaterializedValue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/TwitterPlayground.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part2/GraphIntro.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2/GraphIntro.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/part2/OpenGraph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/part2/OpenGraph.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OpenGraph">
+  <component name="RunManager" selected="Application.GraphMaterializedValue">
     <configuration name="BackPressure" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="BackPressure" />
       <module name="akka streams" />
@@ -74,9 +75,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Materializers" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Materializers" />
+    <configuration name="GraphMaterializedValue" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="part2.GraphMaterializedValue" />
       <module name="akka streams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphMaterializedValue" />
         <item itemvalue="Application.OpenGraph" />
         <item itemvalue="Application.GraphIntro" />
         <item itemvalue="Application.BackPressure" />
         <item itemvalue="Application.OperaterFusion" />
-        <item itemvalue="Application.Materializers" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681424159437</updated>
-      <workItem from="1681424160487" duration="14202000" />
+      <workItem from="1681424160487" duration="23377000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1681425304772</created>
@@ -163,11 +170,29 @@
       <option name="project" value="LOCAL" />
       <updated>1681512273764</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Open graphs.">
+      <created>1681515122180</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681515122180</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
@@ -176,6 +201,7 @@
     <MESSAGE value="Refactor." />
     <MESSAGE value="Finish part1." />
     <MESSAGE value="Finish part2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish part2." />
+    <MESSAGE value="Open graphs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Open graphs." />
   </component>
 </project>
